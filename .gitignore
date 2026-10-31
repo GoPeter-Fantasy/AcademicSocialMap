@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual env
+.venv/
+
+# Runtime outputs
+output/
+runs/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+.keys/
+keys/
+*.pem
+*.key
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store

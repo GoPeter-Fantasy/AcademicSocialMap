@@ -1,0 +1,10 @@
+# Install pinned, reproducible versions:
+#   pip install -r requirements.lock
+#
+# Update procedure (when you intentionally upgrade a dep):
+#   pip install -U <package>
+#   pip freeze > requirements.lock
+#
+# The high-level requirements.txt below lists only the top-level packages
+# the project explicitly depends on; everything transitive is pinned by lock.
+-r requirements.lock
