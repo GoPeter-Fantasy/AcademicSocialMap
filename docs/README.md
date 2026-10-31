@@ -206,4 +206,4 @@ key 默认写入 OS 提供的安全存储（Windows Credential Manager / macOS K
 .\.venv\Scripts\python.exe -m pytest tests/ -v
 ```
 
-覆盖 reasoning（核心人物/查漏/引用网络）、graph_builder、datasource、server（路径安全/并发 409/Pydantic 校验）、config（key 优先级）、visualize（方法节点 P0 回归）、report。33 个用例，全部不依赖外网。
+覆盖 reasoning（核心人物/查漏/引用网络）、graph_builder、datasource、server（路径安全/并发 409/Pydantic 校验）、config（key 优先级）、visualize（方法节点 P0 回归）、report、extractor、llm。62 个用例，全部不依赖外网。
