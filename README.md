@@ -143,4 +143,4 @@ academic-social-map/
 
 ## License
 
-尚未指定。如需开源分发，建议补一个 LICENSE（MIT / Apache-2.0 均可）。
+[MIT](LICENSE) © 2026 GoPeter-Fantasy
